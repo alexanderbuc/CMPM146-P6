@@ -26,7 +26,7 @@ def analyze(design):
 
 def inspect((i,j), draw_line):
     # TODO: use ANALYSIS and (i,j) draw some lines
-     for each in ANALYSIS.keys():
+    """for each in ANALYSIS.keys():
         if i is each[0][0] and j is each[0][1]:
-            path = ANALYSIS[each]
+            path = ANALYSIS[each]"""
     raise NotImplementedError
