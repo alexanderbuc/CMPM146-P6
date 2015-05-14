@@ -5,6 +5,8 @@ from p6_game import Simulator
 ANALYSIS = {}
 
 def analyze(design):
+    global ANALYSIS
+    ANALYSIS = {}
     sim = Simulator(design)
     queue = []
     visited = []
@@ -30,5 +32,6 @@ def inspect((i,j), draw_line):
     for each in ANALYSIS.keys():
         if i is each[0][0] and j is each[0][1]:
             path = ANALYSIS[each]
-            for thing in range(len(path)):
-                draw_line(path[thing][0], path[thing+1][0])
+            for thing in range(len(path)-1):
+                draw_line(path[thing][0], path[thing+1][0],each[1],path[thing][1])
+            draw_line(path[-1][0],each[0],each[1],path[-1][1])
