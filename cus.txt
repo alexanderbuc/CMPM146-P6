@@ -1,0 +1,9 @@
+E E E E E E E E E E E E E E E E F F E E E E E E E E E E E E E E
+E 0 A A A A A A A 4 A A A A A E F F F F F F F F F F F F F F F F
+E E E A E A E A E E A A A A A 3 E F F F E F E F E F E F E F E F
+E 5 E E E E E E E E A A A A A A 2 F F F F F F F F F F F F F F F
+E W W E E E E E E E E F F F F F E F E F E F E F F F F F F F E F
+E W W A A A A A A A E E E E E E E E E E E E E E E E E E F F F F
+E W W A A E E W W A A W W A A W W E E F F A A W W W W F F A E E
+E F F E E A A W W E E W W A A F F A A W W W W W W W W 1 A A E W
+E E E E E E E E E E E E E E E E E E E E E E E E E E E E E E E E
